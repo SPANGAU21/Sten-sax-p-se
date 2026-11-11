@@ -1,3 +1,5 @@
+import random
+
 print("Nu ska vi spela Sten, Sax eller Påse!")
 print("Jag är Spel Mästaren")
 username=input("Vad är ditt username?") 
@@ -5,4 +7,6 @@ antal_omgångar=int(input("snge antal omgångar vi ska spela ?"))
 for i in antal_omgångar:
     print("Spelomgång",i+1)
     print("-"*10)
+    val = input("Välj `Sten´, `Sax´ eller `Påse´:")
+    val = val.lower
     

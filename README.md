@@ -1,7 +1,4 @@
 # Sten-sax-p-se
-Quinton lukas wilhelm alex
-<<<<<<< Updated upstream
-Lektion 1
-Vi börjar med upgift ett som är sten sax påse och skriver i python. 
-=======
->>>>>>> Stashed changes
+Quinton lukas wilhelm alex  
+Lektion 1  
+Vi börjar med uppgift ett som är sten sax påse och skriver i python.

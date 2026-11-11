@@ -1,0 +1,1 @@
+print("Nu ska vi spela Sten, Sax eller Påse!")

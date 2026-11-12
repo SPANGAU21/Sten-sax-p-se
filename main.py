@@ -33,7 +33,7 @@ for i in range (antal_omgångar):
         print(username," vinner!")
         spelarens_poäng += 1
     
-    elif mästarens_poäng == "påse" and val == "sten":
+    elif mästaren_val == "påse" and val == "sten":
         print("Mästaren vinner!")
         mästarens_poäng += 1
     elif mästaren_val == "påse" and val == "sax":

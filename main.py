@@ -5,7 +5,7 @@ print("Jag är Spel Mästaren")
 username=input("Vad är ditt username?") 
 mästarens_poäng=0
 spelarens_poäng=0
-antal_omgångar=int(input("ange antal omgångar vi ska spela ?"))
+antal_omgångar=int(input("ange antal omgångar vi ska spela:"))
 for i in range (antal_omgångar):
     print("Spelomgång",i+1)
     print("-"*10)

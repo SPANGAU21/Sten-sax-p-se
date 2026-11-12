@@ -45,5 +45,12 @@ print("-"*10)
 print("-"*10)
 print("Spel mästarens:", mästarens_poäng)
 print(username,"poäng:", spelarens_poäng)
+if spelarens_poäng > mästarens_poäng:
+    print(username,"van!")
+elif spelarens_poäng < mästarens_poäng:
+    print("Mästaren är obesegrad!")
+elif spelarens_poäng == mästarens_poäng:
+    print("Spelet är oavgjort")
+
 
     

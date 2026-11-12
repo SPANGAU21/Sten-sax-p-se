@@ -3,7 +3,8 @@ import random
 print("Nu ska vi spela Sten, Sax eller Påse!")
 print("Jag är Spel Mästaren")
 username=input("Vad är ditt username?") 
-
+mästarens_poäng=0
+spelarens_poäng=0
 antal_omgångar=int(input("ange antal omgångar vi ska spela ?"))
 for i in range (antal_omgångar):
     print("Spelomgång",i+1)
@@ -16,5 +17,13 @@ for i in range (antal_omgångar):
         print("Oavgjort!")
     elif mästaren_val == "sten" and val == "sax":
         print("Mästaren vinner!")
+        mästarens_poäng += 1
+    elif mästaren_val == "sten" and val == "påse":
+        print(username," vinner!")
+        spelarens_poäng += 1
+print("SLUTRESULTAT")
+print("-"*10)
+print("-"*10)
+print("Spel mästarens:", mästarens_poäng)
 
     

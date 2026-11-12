@@ -25,5 +25,6 @@ print("SLUTRESULTAT")
 print("-"*10)
 print("-"*10)
 print("Spel mästarens:", mästarens_poäng)
+print(username,"s poäng:", spelarens_poäng)
 
     
